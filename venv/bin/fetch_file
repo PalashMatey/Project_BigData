@@ -1,0 +1,4 @@
+#!/Users/Palash/Desktop/BigDataProject/venv/bin/python
+# EASY-INSTALL-SCRIPT: 'boto==2.39.0','fetch_file'
+__requires__ = 'boto==2.39.0'
+__import__('pkg_resources').run_script('boto==2.39.0', 'fetch_file')
