@@ -1,19 +1,36 @@
 import urllib.request
 
-#x = urllib.request.urlopen('https://en.wikipedia.org/wiki/Wikipedia:Random')
-#print(x.read())
-
+import re
 import urllib.parse
+x = urllib.request.urlopen('https://en.wikipedia.org/wiki/Wikipedia:Random')
+respData = x.read()
+#paragraphs = re.findall(r'<p>(.*?)<\p>',str(respData))
+paragraphs = re.findall(r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', str(respData))
+#print(paragraphs)
 
-url = 'https://en.wikipedia.org/wiki/'
-values = {'Wikipedia':'Random'}
+for para in paragraphs:
+	print(para)
 
-data = urllib.parse.urlencode(values)
-data = data.encode('utf-8')
-req = urllib.request.Request(url,data)
-resp = urllib.request.urlopen(req)
-respData = resp.read()
-print(respData)
+#url = 'https://en.wikipedia.org/wiki/'
+#values = {'Wikipedia':'Random'}
+
+#data = urllib.parse.urlencode(values)
+#data = data.encode('utf-8')
+#req = urllib.request.Request(url,data)
+#resp = urllib.request.urlopen(req)
+#respData = resp.read()
+#print(respData)
+
+
+
+
+
+
+
+
+
+
+
 '''
 Understanding Regular Expressions
 \d: any number
@@ -47,13 +64,11 @@ White Space Characters
 \f : form feed
 
 
-'''
+
+
 import re
 
-exampleString = '''
-Jessica is 15 years old, and Daniel is 27 years old.
-Edward is 97 years old, and his grandfather, Oscar, is 102. 
-'''
+exampleString =''Jessica is 15 years old, and Daniel is 27 years old.Edward is 97 years old, and his grandfather, Oscar, is 102. ''
 ages = re.findall(r'\d{1,3}',exampleString)
 names = re.findall(r'[A-Z][a-z]*',exampleString)
 
@@ -67,3 +82,4 @@ for name in names:
 	x = x + 1
 
 print(ageDict)
+'''
