@@ -2,16 +2,21 @@ import urllib.request
 
 import re
 import urllib.parse
-x = urllib.request.urlopen('https://en.wikipedia.org/wiki/Wikipedia:Random')
+#x = urllib.request.urlopen('https://en.wikipedia.org/wiki/Wikipedia:Random')
+x = urllib.request.urlopen('https://en.wikipedia.org/wiki/Village')
 respData = x.read()
 #paragraphs = re.findall(r'<p>(.*?)<\p>',str(respData))
 paragraphs = re.findall(r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', str(respData))
 #print(paragraphs)
-
 for para in paragraphs:
-	print(para)
+	#print(para)
+	y = urllib.request.urlopen(str(para))
+	break
+print('\n\n\n')
 
-#url = 'https://en.wikipedia.org/wiki/'
+resp = y.read()
+paragraphs1 = re.findall(r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', str(resp))
+print(paragraphs1)
 #values = {'Wikipedia':'Random'}
 
 #data = urllib.parse.urlencode(values)
