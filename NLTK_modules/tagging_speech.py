@@ -21,7 +21,7 @@ def process_content():
 		for i in tokenized:
 			words = nltk.word_tokenize(i)
 			tagged = nltk.pos_tag(words)
-			chunkGram = r"""Chunk: {<NNP>} """
+			chunkGram = r"""Chunk: {<NNP>+} """
 			chunkParser = nltk.RegexpParser(chunkGram)
 			chunked = chunkParser.parse(tagged)
 #			print(chunked)
@@ -30,3 +30,4 @@ def process_content():
 	except Exception as e:
 		print(str(e))
 process_content()
+
