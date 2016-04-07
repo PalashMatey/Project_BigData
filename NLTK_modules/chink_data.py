@@ -1,9 +1,13 @@
+'''
+Basically implies that, you can use some part of data and ignore the rest.
+A method of elimination, unlike that of chunking.
+Chunking is a method of selection.
+You chink something from a chunk basically
+
+'''
 import nltk
 from nltk.corpus import state_union
 from nltk.tokenize import PunktSentenceTokenizer
-'''
-Also included is chunking, so we can collect and store as chunks the proper nouns
-'''
 
 train_text = state_union.raw('2005-GWBush.txt')
 sample_text = state_union.raw('2006-GWBush.txt')
@@ -21,16 +25,14 @@ def process_content():
 		for i in tokenized:
 			words = nltk.word_tokenize(i)
 			tagged = nltk.pos_tag(words)
-			chunkGram = r"""Chunk: {<NNP>+} """
+			chunkGram = r"""Chunk: {<NNP>+} 
+					}<VB.? | IN | DT>+{	"""
 			chunkParser = nltk.RegexpParser(chunkGram)
 			chunked = chunkParser.parse(tagged)
-			print(chunked)
-#			chunked.draw()
-			
+#			print(chunked)
+			chunked.draw()
+
 	except Exception as e:
 		print(str(e))
-	for subtree in chunked.subtrees(filter = lambda t: t.label() == 'Chunk'):
-		print(subtree)	
-
 process_content()
 

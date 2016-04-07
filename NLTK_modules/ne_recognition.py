@@ -21,10 +21,14 @@ def process_content():
 		for i in tokenized:
 			words = nltk.word_tokenize(i)
 			tagged = nltk.pos_tag(words)
-			chunkGram = r"""Chunk: {<NNP>+} """
-			chunkParser = nltk.RegexpParser(chunkGram)
-			chunked = chunkParser.parse(tagged)
-			print(chunked)
+			namedEnt = nltk.ne_chunk(tagged,binary = True)
+			
+			namedEnt.draw()
+			
+#			chunkGram = r"""Chunk: {<NNP>+} """
+#			chunkParser = nltk.RegexpParser(chunkGram)
+#			chunked = chunkParser.parse(tagged)
+#			print(chunked)
 #			chunked.draw()
 			
 	except Exception as e:
