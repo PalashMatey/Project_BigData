@@ -5,7 +5,7 @@ Pos or neg as sentiment analysis
 import nltk
 import random
 from nltk.corpus import movie_reviews #these movie reviews are already labelled
-
+import pickle
 documents = []
 
 for category in movie_reviews.categories():
@@ -34,7 +34,7 @@ def find_features(document):
 		features[w] = (w in words)
 	return features
 
-print((find_features(movie_reviews.words('neg/cv000_29416.txt'))))
+#print((find_features(movie_reviews.words('neg/cv000_29416.txt'))))
 featuresets = [(find_features(rev),category) for 
 (rev,category) in documents]
 
@@ -44,6 +44,15 @@ training_set = featuresets[:1900]
 # set that we'll test against.
 testing_set = featuresets[1900:]
 
-classifier = nltk.NaiveBayesClassifier.train(training_set)
+#classifier = nltk.NaiveBayesClassifier.train(training_set)
+classifier_f = open("naivebayes.pickle", "rb")
+classifier = pickle.load(classifier_f)
+classifier_f.close()
+#save_classifier = open("naivebayes.pickle","wb")
+#pickle.dump(classifier, save_classifier)
+#save_classifier.close()
+
+
 print("Classifier accuracy percent:",(nltk.classify.accuracy(classifier, testing_set))*100)
 classifier.show_most_informative_features(15)
+
