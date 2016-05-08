@@ -14,3 +14,4 @@ that the use case viability is limited by the fact that it cant recognise the
 language on its own. (Google translate api could be a better fit)
 - NLTK modules now has the completed Sentiment Analysis Module
 - The module is in the file senti_final.py 
+- Add text and run the file : run_sentiment_analysis.py to check the results of sentiment analysis
