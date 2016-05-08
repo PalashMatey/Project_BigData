@@ -45,7 +45,6 @@ for r in short_pos.split('\n'):
 for r in short_neg.split('\n'):
         documents.append((r,"neg"))
 all_words = []
-print(documents)
 short_pos_words = word_tokenize(short_pos)
 short_neg_words = word_tokenize(short_neg)
 
@@ -81,10 +80,10 @@ training_set = featuresets[:10000]
 testing_set = featuresets[10000:]
 
 #classifier = nltk.NaiveBayesClassifier.train(training_set)
-classifier_f = open("naivebayes.pickle", "rb")
+classifier_f = open("naivebayes1.pickle", "rb")
 classifier = pickle.load(classifier_f)
 classifier_f.close()
-#save_classifier = open("naivebayes.pickle","wb")
+#save_classifier = open("naivebayes1.pickle","wb")
 #pickle.dump(classifier, save_classifier)
 #save_classifier.close()
 
@@ -92,8 +91,13 @@ classifier_f.close()
 print("Original Naive Bayes Classifier accuracy percent:",(nltk.classify.accuracy(classifier, testing_set))*100)
 classifier.show_most_informative_features(15)
 
-MNB_classifier = SklearnClassifier(MultinomialNB())
-MNB_classifier.train(training_set)
+#MNB_classifier = SklearnClassifier(MultinomialNB())
+#save_MNB_classifier = MNB_classifier.train(training_set)
+save_classifier2 = open("MNB.pickle","rb")
+#pickle.dump(save_MNB_classifier, save_classifier2)
+#save_classifier2.close()
+MNB_classifier = pickle.load(save_classifier2)
+save_classifier2.close()
 print("MultinomialNB accuracy percent:",(nltk.classify.accuracy(MNB_classifier, testing_set))*100)
 
 BNB_classifier = SklearnClassifier(BernoulliNB())
