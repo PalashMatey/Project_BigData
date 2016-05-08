@@ -37,14 +37,34 @@ class VoteClassifier(ClassifierI):
 		
 short_pos = open("positive.txt", encoding = "ISO-8859-1").read()
 short_neg = open("negative.txt",encoding = "ISO-8859-1").read()
-
+'''
 documents = []
-
-for r in short_pos.split('\n'):
-	documents.append((r,"pos"))
-for r in short_neg.split('\n'):
-        documents.append((r,"neg"))
+allowed_word_types = ["J"]
 all_words = []
+
+for p in short_pos.split('\n'):
+	documents.append((p,"pos"))
+	words = word_tokenize(p)
+	pos = nltk.pos_tag(words)
+	for w in pos:
+		if w[1][0] in allowed_word_types:
+			all_words.append(w[0].lower())
+
+for p in short_neg.split('\n'):
+	documents.append((p,"neg"))
+	words = word_tokenize(p)
+	neg = nltk.pos_tag(words)
+	for w in neg:
+		if w[1][0] in allowed_word_types:
+			all_words.append(w[0].lower())
+
+'''
+save_documents = open("documents.pickle","rb")
+#pickle.dump(documents,save_documents)
+documents = pickle.load(save_documents)
+save_documents.close() 
+
+'''
 short_pos_words = word_tokenize(short_pos)
 short_neg_words = word_tokenize(short_neg)
 
@@ -53,6 +73,7 @@ for w in short_pos_words:
 
 for w in short_neg_words:
 	all_words.append(w.lower())
+'''
 
 all_words = nltk.FreqDist(all_words)
 #print(all_words.most_common(15))
@@ -60,6 +81,9 @@ all_words = nltk.FreqDist(all_words)
 #print(all_words['stupid'])
 
 word_features = list(all_words.keys())[:5000]
+save_word_features = open("word_feature5k.pickle","wb")
+pickle.dump(word_features,save_word_features)
+save_word_features.close()
 
 def find_features(document):
 	words = word_tokenize(document)
@@ -89,7 +113,7 @@ classifier_f.close()
 
 
 print("Original Naive Bayes Classifier accuracy percent:",(nltk.classify.accuracy(classifier, testing_set))*100)
-classifier.show_most_informative_features(15)
+#classifier.show_most_informative_features(15)
 
 #MNB_classifier = SklearnClassifier(MultinomialNB())
 #save_MNB_classifier = MNB_classifier.train(training_set)
