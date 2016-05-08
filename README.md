@@ -12,4 +12,5 @@ still have to figure out its best use-case application
 case could be to translate words which are in a foreign language. I think 
 that the use case viability is limited by the fact that it cant recognise the 
 language on its own. (Google translate api could be a better fit)
-
+- NLTK modules now has the completed Sentiment Analysis Module
+- The module is in the file senti_final.py 
