@@ -35,8 +35,6 @@ class VoteClassifier(ClassifierI):
 		conf = choice_votes / len(votes)
 		return conf
 		
-short_pos = open("positive.txt", encoding = "ISO-8859-1").read()
-short_neg = open("negative.txt",encoding = "ISO-8859-1").read()
 
 
 save_documents = open("documents.pickle","rb")
@@ -106,3 +104,6 @@ voted_classifier = VoteClassifier(classifier,MNB_classifier,BNB_classifier,Logis
 
 print("Voted classifier accuracy percent:", (nltk.classify.accuracy(voted_classifier, testing_set))*100)
 
+def sentiment(text):
+	feats = find_features(text)
+	return voted_classifier.classify(feats),voted_classifier.confidence(feats)
