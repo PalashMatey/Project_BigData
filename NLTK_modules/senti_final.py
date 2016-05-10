@@ -107,7 +107,7 @@ print("Voted classifier accuracy percent:", (nltk.classify.accuracy(voted_classi
 def sentiment(text):
 	feats = find_features(text)
 	if voted_classifier.classify(feats) == 'pos':
-		return 1
+		return 1,voted_classifier.confidence(feats)
 	else:
-		return -1
+		return -1,voted_classifier.confidence(feats)
 	#return voted_classifier.classify(feats),voted_classifier.confidence(feats)
