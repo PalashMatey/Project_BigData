@@ -32,7 +32,7 @@ class VoteClassifier(ClassifierI):
         for c in self._classifiers:
             v = c.classify(features)
             votes.append(v)
-        choice_votes = votes.count(mode(votes))
+        choice_votes = votes.count(mode(votes)[0][0])
         conf = choice_votes / len(votes)
         return conf
 
@@ -101,6 +101,6 @@ print("Voted classifier accuracy percent:", (nltk.classify.accuracy(voted_classi
 def sentiment(text):
 	feats = find_features(text)
 	if voted_classifier.classify(feats) == 'pos':
-		return 1
+		return 1,voted_classifier.confidence(feats)
 	else:
-		return -1
+		return -1,voted_classifier.confidence(feats)
