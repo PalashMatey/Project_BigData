@@ -29,7 +29,7 @@ with open("TextFiles/Kim_Kardashian_Sample.txt","r") as f:
         s.append(p)
 
 sample_text = ' '.join(s).decode('utf-8')
-
+'''
 custom_sent_tokenizer = PunktSentenceTokenizer(train_text)
 
 tokenized = custom_sent_tokenizer.tokenize(sample_text)
@@ -43,7 +43,7 @@ def process_content():
 			words = nltk.word_tokenize(i)
 			tagged = nltk.pos_tag(words)
 			chunkGram = r"""Chunk: {<NNP>+} 
-					}|<VB.? | IN  | DT>+  {	"""
+					}<VB.? | IN | DT>+{	"""
 			chunkParser = nltk.RegexpParser(chunkGram)
 			chunked = chunkParser.parse(tagged)
 			print(chunked)
@@ -55,3 +55,7 @@ def process_content():
 		print(str(e))
 process_content()
 
+'''
+from textblob import TextBlob
+blob = TextBlob(train_text)
+print blob.tags

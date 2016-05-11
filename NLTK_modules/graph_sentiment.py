@@ -8,6 +8,8 @@ You chink something from a chunk basically
 import nltk
 from nltk.corpus import state_union
 from nltk.tokenize import PunktSentenceTokenizer
+import numpy as np
+import matplotlib.pyplot as plt
 
 #train_text = open('Hillary_Clinton_Train.txt','r')
 #sample_text = open('Hillary_Clinton_Sample.txt','r')
@@ -17,19 +19,19 @@ from nltk.tokenize import PunktSentenceTokenizer
 
 
 t = []
-with open("TextFiles/Kim_Kardashian_Train.txt","r") as f:
+with open("TextFiles/Donald_Trump_Train.txt","r") as f:
     for p in f.readlines():
 	t.append(p)
 
 train_text = ' '.join(t).decode('utf-8')
 #print train_text
 s = []
-with open("TextFiles/Kim_Kardashian_Sample.txt","r") as f:
+with open("TextFiles/Donald_Trump_Sample.txt","r") as f:
     for p in f.readlines():
         s.append(p)
 
 sample_text = ' '.join(s).decode('utf-8')
-
+'''
 custom_sent_tokenizer = PunktSentenceTokenizer(train_text)
 
 tokenized = custom_sent_tokenizer.tokenize(sample_text)
@@ -43,7 +45,7 @@ def process_content():
 			words = nltk.word_tokenize(i)
 			tagged = nltk.pos_tag(words)
 			chunkGram = r"""Chunk: {<NNP>+} 
-					}|<VB.? | IN  | DT>+  {	"""
+					}<VB.? | IN | DT>+{	"""
 			chunkParser = nltk.RegexpParser(chunkGram)
 			chunked = chunkParser.parse(tagged)
 			print(chunked)
@@ -55,3 +57,11 @@ def process_content():
 		print(str(e))
 process_content()
 
+'''
+
+from textblob import TextBlob
+blob = TextBlob(train_text)
+for sentence in blob.sentences:
+	print  sentence.sentiment.polarity
+	a = np.array().insert(sentence.sentiment.polarity)
+print a

@@ -33,13 +33,16 @@ def process_content():
 		for i in tokenized:
 			words = nltk.word_tokenize(i)
 			tagged = nltk.pos_tag(words)
-			namedEnt = nltk.ne_chunk(tagged,binary = True)
-			print(namedEnt)[0]
+#			namedEnt = nltk.ne_chunk(tagged,binary = False)
+#			t = Tree.pformat(namedEnt).encode('utf-8')
+#			with open("Donald_Trump_Chunked.txt",'w') as f:
+#				f.write(t)
+#				f.close()
 #			namedEnt.draw()
-#			chunkGram = r"""Chunk: {<NNP>+} """
-#			chunkParser = nltk.RegexpParser(chunkGram)
-#			chunked = chunkParser.parse(tagged)
-#			print(chunked)
+			chunkGram = r"""Chunk: {<NNP>+} """
+			chunkParser = nltk.RegexpParser(chunkGram)
+			chunked = chunkParser.parse(tagged)
+			print(chunked)
 #			chunked.draw()
 #			for tree in namedEnt:
     # Print results per sentence
@@ -60,6 +63,20 @@ def extract_entity_names(t):
 			for child in t:
 				entity_names.extend(extract_entity_names(child)) 
 	return entity_names
+
 '''
+from nltk import Tree
+from nltk.draw.util import CanvasFrame
+from nltk.draw import TreeWidget
+
+cf = CanvasFrame()
+t = Tree.fromstring('(S (NE this tree))')
+tc = TreeWidget(cf.canvas(),t)
+cf.add_widget(tc,10,10) # (10,10) offsets
+cf.print_to_file('tree.ps')
+cf.destroy()
+
+
+
 process_content()
 
