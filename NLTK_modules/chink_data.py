@@ -9,9 +9,24 @@ import nltk
 from nltk.corpus import state_union
 from nltk.tokenize import PunktSentenceTokenizer
 
-train_text = state_union.raw('2005-GWBush.txt')
-sample_text = state_union.raw('2006-GWBush.txt')
+#train_text = open('Hillary_Clinton_Train.txt','r')
+#sample_text = open('Hillary_Clinton_Sample.txt','r')
+#train_text = state_union.raw('2005-GWBush.txt')
+#sample_text = state_union.raw('2006-GWBush.txt')
+#print train_text
+t = []
+with open("Hillary_Clinton_Train.txt","r") as f:
+    for p in f.readlines():
+	t.append(p)
 
+train_text = ' '.join(t).decode('utf-8')
+#print train_text
+s = []
+with open("Hillary_Clinton_Sample.txt","r") as f:
+    for p in f.readlines():
+        s.append(p)
+
+sample_text = ' '.join(s).decode('utf-8')
 
 custom_sent_tokenizer = PunktSentenceTokenizer(train_text)
 

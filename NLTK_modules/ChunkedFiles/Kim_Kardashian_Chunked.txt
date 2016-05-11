@@ -1,0 +1,1130 @@
+(S
+  (Chunk RT/NNP @/NNP)
+  allanlac/NN
+  :/:
+  passei/NN
+  correndo/NN
+  pelo/NN
+  espelho/NN
+  achei/NN
+  q/NN
+  eu/FW
+  fosse/NN
+  kim/NN
+  kardashian/JJ
+  (Chunk RT/NNP @/NNP USAGirlss/NNP)
+  :/:
+  UHH/NN
+  !/.)
+(S
+  (Chunk Kim/NNP)
+  kardashian/JJ
+  (Chunk Caught/NNP Bra/NNP)
+  less/JJR
+  at/IN
+  (Chunk Public/NNP)
+  and/CC
+  ramp/VB
+  Places/NNS
+  for/IN
+  first/JJ
+  time/NN
+  ,/,
+  see/VBP
+  (Chunk Gallery\ud83d\udc4dhttps/NNP)
+  :/:
+  //t.co/k3du3scaFi/JJ
+  https/NN
+  :/:
+  //t..../JJ
+  (Chunk Kim/NNP Kardashian/NNP)
+  's/POS
+  (Chunk Gigantic/NNP Butt/NNP Eats/NNP Her/NNP Bikini/NNP)
+  !/.
+  !/.
+  !/.)
+(S
+  https/NN
+  :/:
+  //t.co/BEu4o2Vi6K/JJ
+  #/#
+  tits/NNS
+  #/#
+  popular/JJ
+  #/#
+  chic/JJ
+  https/NN
+  :/:
+  //t.co/INCU8qEd4I/JJ
+  (Chunk RT/NNP @/NNP)
+  allanlac/NN
+  :/:
+  passei/NN
+  correndo/NN
+  pelo/NN
+  espelho/NN
+  achei/NN
+  q/NN
+  eu/FW
+  fosse/NN
+  kim/NN
+  kardashian/JJ
+  (Chunk RT/NNP @/NNP)
+  allanlac/NN
+  :/:
+  passei/NN
+  correndo/NN
+  pelo/NN
+  espelho/NN
+  achei/NN
+  q/NN
+  eu/FW
+  fosse/NN
+  kim/NN
+  kardashian/JJ
+  (Chunk RT/NNP @/NNP ACClONPOETICA/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/HpuMMUKSSR/JJ
+  http.../NN
+  (Chunk RT/NNP @/NNP ACClONPOETICA/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/HpuMMUKSSR/JJ
+  http.../NN
+  (Chunk RT/NNP @/NNP ACClONPOETICA/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/HpuMMUKSSR/JJ
+  http.../NN
+  (Chunk RT/NNP @/NNP ACClONPOETICA/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/HpuMMUKSSR/JJ
+  http.../NN
+  (Chunk RT/NNP @/NNP)
+  ahoranoticiasAN/NN
+  :/:
+  (Chunk Kim/NNP Kardashian/NNP)
+  sorprende/VBZ
+  luciendo/FW
+  ``/``
+  al/JJ
+  natural/JJ
+  ''/''
+  en/NN
+  revista/NN
+  https/NN
+  :/:
+  //t.co/LaPpnm7z2g/JJ
+  https/NN
+  :/:
+  //t.co/B3LMH24mk8/JJ
+  (Chunk RT/NNP @/NNP ACClONPOETICA/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/HpuMMUKSSR/JJ
+  http.../NN
+  (Chunk RT/NNP @/NNP ACClONPOETICA/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/HpuMMUKSSR/JJ
+  http.../NN
+  (Chunk RT/NNP @/NNP ACClONPOETICA/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/HpuMMUKSSR/JJ
+  http.../NN
+  (Chunk RT/NNP @/NNP ACClONPOETICA/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/HpuMMUKSSR/JJ
+  http.../NN
+  (Chunk RT/NNP @/NNP ACClONPOETICA/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/HpuMMUKSSR/JJ
+  http.../NN
+  (Chunk RT/NNP @/NNP ACClONPOETICA/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/HpuMMUKSSR/JJ
+  http.../NN
+  (Chunk RT/NNP @/NNP ACClONPOETICA/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/HpuMMUKSSR/JJ
+  http.../NN
+  (Chunk RT/NNP @/NNP ACClONPOETICA/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/HpuMMUKSSR/JJ
+  http.../NN
+  (Chunk RT/NNP @/NNP ACClONPOETICA/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/HpuMMUKSSR/JJ
+  http.../NN
+  (Chunk RT/NNP @/NNP ACClONPOETICA/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/HpuMMUKSSR/JJ
+  http.../NN
+  (Chunk RT/NNP @/NNP ACClONPOETICA/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/HpuMMUKSSR/JJ
+  http.../NN
+  (Chunk RT/NNP @/NNP ACClONPOETICA/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/HpuMMUKSSR/JJ
+  http.../NN
+  (Chunk RT/NNP @/NNP ACClONPOETICA/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/HpuMMUKSSR/JJ
+  http.../NN
+  (Chunk RT/NNP @/NNP ACClONPOETICA/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/HpuMMUKSSR/JJ
+  http.../NN
+  (Chunk RT/NNP @/NNP ACClONPOETICA/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/HpuMMUKSSR/JJ
+  http.../NN
+  (Chunk RT/NNP @/NNP ACClONPOETICA/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/HpuMMUKSSR/JJ
+  http.../NN
+  (Chunk RT/NNP @/NNP ACClONPOETICA/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/HpuMMUKSSR/JJ
+  http.../NN
+  (Chunk RT/NNP @/NNP ACClONPOETICA/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/HpuMMUKSSR/JJ
+  http.../NN
+  (Chunk RT/NNP @/NNP EISenorSarcasmo/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/9e20EgDgCL/JJ
+  ht.../NN
+  (Chunk RT/NNP @/NNP EISenorSarcasmo/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/9e20EgDgCL/JJ
+  ht.../NN
+  (Chunk RT/NNP @/NNP EISenorSarcasmo/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/9e20EgDgCL/JJ
+  ht.../NN
+  (Chunk RT/NNP @/NNP EISenorSarcasmo/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/9e20EgDgCL/JJ
+  ht.../NN
+  (Chunk RT/NNP @/NNP EISenorSarcasmo/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/9e20EgDgCL/JJ
+  ht.../NN
+  (Chunk RT/NNP @/NNP EISenorSarcasmo/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/9e20EgDgCL/JJ
+  ht.../NN
+  (Chunk RT/NNP @/NNP EISenorSarcasmo/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/9e20EgDgCL/JJ
+  ht.../NN
+  (Chunk RT/NNP @/NNP EISenorSarcasmo/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/9e20EgDgCL/JJ
+  ht.../NN
+  (Chunk RT/NNP @/NNP EISenorSarcasmo/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/9e20EgDgCL/JJ
+  ht.../NN
+  (Chunk RT/NNP @/NNP EISenorSarcasmo/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/9e20EgDgCL/JJ
+  ht.../NN
+  (Chunk RT/NNP @/NNP EISenorSarcasmo/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/9e20EgDgCL/JJ
+  ht.../NN
+  (Chunk RT/NNP @/NNP EISenorSarcasmo/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/9e20EgDgCL/JJ
+  ht.../NN
+  (Chunk RT/NNP @/NNP EISenorSarcasmo/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/9e20EgDgCL/JJ
+  ht.../NN
+  (Chunk RT/NNP @/NNP EISenorSarcasmo/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/9e20EgDgCL/JJ
+  ht.../NN
+  (Chunk RT/NNP @/NNP EISenorSarcasmo/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/9e20EgDgCL/JJ
+  ht.../NN
+  (Chunk RT/NNP @/NNP FactsOfSchool/NNP)
+  :/:
+  current/JJ
+  stress/NN
+  level/NN
+  :/:
+  when/WRB
+  (Chunk Kim/NNP Kardashian/NNP)
+  lost/VBD
+  her/PRP$
+  $/$
+  75,000/CD
+  earring/NN
+  in/IN
+  the/DT
+  ocean/NN
+  (Chunk RT/NNP @/NNP EISenorSarcasmo/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/9e20EgDgCL/JJ
+  ht.../NN
+  (Chunk RT/NNP @/NNP EISenorSarcasmo/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/9e20EgDgCL/JJ
+  ht.../NN
+  (Chunk RT/NNP @/NNP EISenorSarcasmo/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/9e20EgDgCL/JJ
+  ht.../NN
+  (Chunk RT/NNP @/NNP EISenorSarcasmo/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/9e20EgDgCL/JJ
+  ht.../NN
+  (Chunk RT/NNP @/NNP EISenorSarcasmo/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/9e20EgDgCL/JJ
+  ht.../NN
+  (Chunk RT/NNP @/NNP EISenorSarcasmo/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/9e20EgDgCL/JJ
+  ht.../NN
+  (Chunk RT/NNP @/NNP EISenorSarcasmo/NNP)
+  :/:
+  \xa1Ella/NN
+  es/NN
+  (Chunk Anastasiya/NNP Kvitko/NNP)
+  !/.)
+(S
+  (Chunk La/NNP Kim/NNP Kardashian/NNP)
+  rusa/NN
+  que/NN
+  se/NN
+  nego/IN
+  a/DT
+  bajar/NN
+  de/IN
+  peso/NN
+  ./.)
+(S
+  (Chunk Ver/NNP Aqui/NNP \u27a1/NNP)
+  https/NN
+  :/:
+  //t.co/9e20EgDgCL/NN
+  ht.../NN)
